@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Portrait Lighting Transfer using a Mass Transport Approach</title>
+	<meta name="description" content="Project Page for Portrait Lighting Transfer">
+    <meta name="author" content="Zhixin Shu">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href="./style_files/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<link href="./style_files/custom.css" type="text/css" rel="stylesheet">
+    <meta property="og:image"   content="http://www3.cs.stonybrook.edu/~cvl/content/portrait-relighting/markup.png" />
+</head>
+
+<body>
+
+<center><br class="auto-style2">
+<table width="1000" style="height: 78px">
+	<tbody><tr>
+		<td class="auto-style2">&nbsp;</td>
+	</tr>
+	<tr>
+		<td align="center" class="title" colspan="99">
+		<h1 class="auto-style4"> Portrait Lighting Transfer using a Mass Transport Approach </h1>
+		</td>
+	</tr>
+</tbody></table>
+<table>
+	<tbody><tr>
+		<br>
+		<div class="author">
+		<a href="https://zhixinshu.github.io/">Zhixin Shu</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+		<a href="https://research.adobe.com/person/sunil-hadap/">Sunil Hadap</a><sup>2</sup>&nbsp;&nbsp;&nbsp;
+		<a href="https://research.adobe.com/person/eli-shechtman/">Eli Shechtman</a><sup>2</sup>&nbsp;&nbsp;&nbsp;
+		<a href="http://www.eecs.harvard.edu/~kalyans/">Kalyan Sunkavalli</a><sup>2</sup>&nbsp;&nbsp;&nbsp;
+		<a href="http://people.csail.mit.edu/sparis/">Sylvain Paris</a><sup>2</sup>&nbsp;&nbsp;&nbsp;
+		<a href="http://www3.cs.stonybrook.edu/~samaras/">Dimitris Samaras</a><sup>1,3</sup>&nbsp;&nbsp;&nbsp;
+		</div>
+	</tr>
+	<tr>
+		<br>
+		<div class="institute">
+		<a href="http://www.stonybrook.edu/">Stony Brook University</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+		<a href="https://research.adobe.com/">Adobe Research</a><sup>2</sup>&nbsp;&nbsp;&nbsp;
+		<a href="http://www.centralesupelec.fr/">CentraleSupélec, Université Paris-Saclay</a><sup>3</sup>&nbsp;&nbsp;&nbsp;
+		</div><br>
+	</tr>
+</tbody></table>
+<table width="800">
+	<tbody><tr>
+		<td align="center" style="width: 812px"><span class="auto-style3">
+		<img src="./Picture1.png" width="780"><br>
+		</tr>
+	</tbody>
+</table>
+<table width="800">
+	<tbody>
+		<tr>
+		<td style="width: 812px"><div class="auto-style3">Abstract</div>
+		<br>
+		<div>Lighting is a critical element of portrait photography. However, good lighting design typically requires complex setups and significant time and expertise. Our goal is to achieve the desired portrait lighting with a relighting technique that transfers the illumination of a portrait onto another one. The  novelty in our approach to this challenging problem is our formulation of relighting as a mass transport problem. We start from standard color histogram matching that only captures the overall tone of the illumination, and show how to use the mass-transport formulation to make it dependent on facial geometry. We fit a 3D morphable face model to the portrait, and for each pixel we combine the color value with the corresponding 3D position and normal. We then solve the mass-transport problem in this augmented space to generate a color remapping that achieves localized, geometry-aware relighting. Our technique is robust to variations in facial appearance and small errors in face reconstruction. As we demonstrate, this allows our technique to handle a variety of portraits and illumination conditions, including scenarios that are challenging for previous methods. </div><br>
+		</td></tr>
+		<tr>
+		<td style="width: 812px"><div class="auto-style3">Paper</div>
+		<br>
+		<div>Portrait Lighting Transfer using a Mass Transport Approach. Zhixin Shu, Sunil Hadap, Eli Shechtman, Kalyan Sunkavalli, Sylvain Paris, Dimitris Samaras, ACM Transactions on Graphics (TOG) (to appear). </div>
+		</td></tr>
+		<tr>
+		<br>
+		<td style="width: 812px"><div class="auto-style3">Supplementary Material</div><br>
+		<div>Supplemental Document
+		(<a href="./supplemental.pdf">PDF, 123MB</a>)&nbsp;&nbsp;&nbsp;&nbsp;</div><br>
+		<div>Data
+		(coming soon)</div><br>
+		<div>Code
+		(coming soon)</div><br>
+		</td></tr>
+		<tr>
+		<td style="width: 812px"><div class="auto-style3">Acknowledgement</div><br>
+		<div>This work started when Zhixin Shu was an intern at Adobe Research. This work was supported by a gift from Adobe, NSF IIS-1161876, the Stony Brook SensorCAT and the Partner University Fund 4DVision project. </div><br>
+		<br>
+		</td>
+		<td class="auto-style2">&nbsp;</td>
+	</tr>
+</tbody></table>
+
+</center>
+
+
+</body></html>
